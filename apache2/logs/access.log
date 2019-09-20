@@ -1,0 +1,13 @@
+::1 - - [19/Sep/2019:21:46:06 -0300] "GET / HTTP/1.1" 200 78271
+::1 - - [19/Sep/2019:21:46:06 -0300] "GET /index.php?=PHPE9568F34-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 2524
+::1 - - [19/Sep/2019:21:46:06 -0300] "GET /index.php?=PHPE9568F35-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 2146
+::1 - - [19/Sep/2019:21:47:25 -0300] "GET /projeto_entrega HTTP/1.1" 301 246
+::1 - - [19/Sep/2019:21:47:25 -0300] "GET /projeto%20entrega HTTP/1.1" 404 213
+::1 - - [19/Sep/2019:21:47:25 -0300] "GET /projeto_entrega/ HTTP/1.1" 200 280
+::1 - - [19/Sep/2019:21:47:27 -0300] "GET /projeto_entrega/login.html HTTP/1.1" 200 1476
+::1 - - [19/Sep/2019:21:47:27 -0300] "GET /dist/css/bootstrap.min.css HTTP/1.1" 404 224
+::1 - - [19/Sep/2019:21:47:27 -0300] "GET /projeto_entrega/signin.css HTTP/1.1" 404 224
+::1 - - [19/Sep/2019:21:47:27 -0300] "GET /assets/brand/bootstrap-solid.svg HTTP/1.1" 404 230
+::1 - - [19/Sep/2019:21:52:44 -0300] "GET /projeto-senac HTTP/1.1" 404 211
+::1 - - [19/Sep/2019:21:52:44 -0300] "GET /projeto_senac HTTP/1.1" 404 211
+::1 - - [19/Sep/2019:21:52:58 -0300] "GET /site-exemplo/ HTTP/1.1" 200 2764
