@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -16,10 +11,26 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <nav></nav>
+        <nav class="blue-grey">
+            <div class="nav-wrapper container">
+                <div class="brand-logo light">Sistema de Cadastro</div>  
+                <ul class="right">
+                    <li><a href=""><i class="material-icons left">account_circle</i>Cadastro</a></li>
+                    <li><a href=""><i class="material-icons left">search</i>Consultas</a></li>
+                    
+                    
+                </ul>
+            </div>           
+        </nav>
         
-        
-        
+        <!--Formulario de cadastro-->
+        <div class="row container">
+            <form action="banco_de_dados/create.php" method="post" class="col s12"></form>
+            <fieldset class="formulario">
+                <legend>Cadastro</legend>
+            </fieldset>
+            
+        </div>
         
     <!--Arquivos JQUERY e JS-->
     <script type="text/javascript" src="materialize/js/jquery-3.4.1.min.js"></script>
