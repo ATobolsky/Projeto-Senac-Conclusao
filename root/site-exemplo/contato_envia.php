@@ -33,7 +33,7 @@
     require_once("inc/enviarEmail.php");
 
     if (enviarEmail('lagermano.rp@gmail.com', // Email de quem vai receber
-                   $Email, // Email do formulário para ir no ReplyTo
+                   $Email, // Email formulário para ir no ReplyTo
                    $Nome, // Nome do formulário para ir no ReplyTo
                    'Contato através do Site', // Assunto do Email
                    $TextoEmail)) {
